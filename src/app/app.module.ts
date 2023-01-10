@@ -8,6 +8,7 @@ import { InterpolacionComponent } from './clase4/interpolacion/interpolacion.com
 import { SkeletonComponent } from './layout/skeleton/skeleton.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavigationComponent } from './layout/navigation/navigation.component';
     InterpolacionComponent,
     SkeletonComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
